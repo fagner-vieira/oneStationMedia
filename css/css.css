@@ -11,6 +11,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;    
+    height: 850px;
 }
 
 .menuIdioma{
@@ -34,10 +35,51 @@ body{
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: #730086;
+    color: #d0d0d0;
     background-color: transparent;
 }
 
+.BlockSections{
+    margin-top: -150px;
+}
+
+.bgWhos{
+    background-image: url(../images/quemsomos.jpg);
+    background-color: #6d007f;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    height: 260px;
+}
+
+.titulosQ{
+    color: #fff;
+    text-align: center;
+    padding: 33% 0 0 0;;
+    font-size: 2.5em;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.tituloBold{
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.blockBorder{
+    border-top: solid 10px #6d007f;
+    background-color: #e7f1ff;
+}
+
+.alignTxtWhos{
+    height: 260px;
+    padding-top: 8%;
+}
+
+.txtWhos{
+    color: #5f5f5f;
+    font-size: 1.5em;
+}
 
 
 
