@@ -16,7 +16,7 @@ body{
 
 .menuIdioma{
     height: 25px;
-    background-color: #cccccc;
+    padding-top: 8px;
 }
 
 .navbar-default {
@@ -55,7 +55,7 @@ body{
 .titulosQ{
     color: #fff;
     text-align: center;
-    padding: 33% 0 0 0;;
+    padding: 33% 0 0 0;
     font-size: 2.5em;
     line-height: 40px;
     text-transform: uppercase;
@@ -76,9 +76,96 @@ body{
     padding-top: 8%;
 }
 
+.alignTxtJog{
+    height: 260px;
+    padding-top: 10%;
+}
+
 .txtWhos{
     color: #5f5f5f;
     font-size: 1.5em;
+}
+
+.BlockSectionsB{
+    margin-top: 5%;
+}
+
+.bgProducts{
+    background-image: url(../images/produtos.jpg);
+    background-color: #bee548;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    height: 260px;
+}
+
+.blockBorderP{
+    border-top: solid 10px #bee548;
+    background-color: #e7f1ff;
+}
+
+.bgJob{
+    background-image: url(../images/trabalhe.jpg);
+    background-color: #e54874;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    height: 260px;
+}
+
+.blockBorderT{
+    border-top: solid 10px #e54874;
+    background-color: #e7f1ff;
+}
+
+.bgContact{
+    background-image: url(../images/contato.jpg);
+    background-color: #e5d448;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    height: 260px;
+}
+
+.blockBorderC{
+    border-top: solid 10px #e5d448;
+    background-color: #e7f1ff;
+}
+
+.bgFooter{
+    background-image: url(../images/bgFooter.jpg);
+    background-color: #133554;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+.txtFooter{
+    color: #fff;
+    text-align: center;
+    padding: 5%;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.imgIdioma{
+    width: 20px;
+    margin-top: -4px;
+}
+
+.txtIdioma{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.linkIdioma{
+    color: #fff;
+    text-decoration: none;
+}
+
+.linkIdioma:hover{
+    color: #d0d0d0;
+    text-decoration: none;
 }
 
 

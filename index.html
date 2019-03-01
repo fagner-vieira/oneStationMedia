@@ -19,10 +19,12 @@
   <body>
 
 <header class="container-fluid bgHeader"> <!--header-->
+	<div class="row"> <!--row 1-->
+		<div class="col-lg-3 menuIdioma pull-right">
+			<p class="txtIdioma">idioma <a href="#" class="linkIdioma"> &nbsp; EN <span><img src="images/eua.jpg" class="imgIdioma" alt=""></span></a></p>
+		</div>
+	</div><!--row 1-->
 	<div class="container"> <!--container-->
-		<div class="row"> <!--row 1-->
-			<div class="col-lg-12 menuIdioma"></div>
-		</div><!--row 1-->
 		<div class="row"><!--row 2-->
 			<div class="col-lg-4"> <!--col-lg-3-->
 				<a href="#"><img src="images/logo.png" class="img-responsive center-block" alt="One Station Media Logo"></a>
@@ -44,9 +46,9 @@
 								<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 									<ul class="nav navbar-nav navbar-left">
 										<li><a href="#quemsomos">Quem somos</a></li>
-										<li><a href="#">Produtos e serviços</a></li>
-										<li><a href="#">Trabalhe conosco</a></li>
-										<li><a href="#">Contato</a></li>
+										<li><a href="#produtoseservicos">Produtos e serviços</a></li>
+										<li><a href="#trabalheconosco">Trabalhe conosco</a></li>
+										<li><a href="#contato">Contato</a></li>
 									</ul>
 								</div><!-- /.navbar-collapse -->
 							</div><!-- /.container-fluid -->
@@ -67,8 +69,48 @@
 	</div><!--row-->
 </section><!--/section-->
 
+<section id="produtoseservicos" class="container BlockSectionsB"> <!--section-->
+	<div class="row"><!--row-->
+		<div class="col-lg-3 bgProducts"><!--col-lg-3-->
+			<p class="titulosQ"><span class="tituloBold">Produtos</span><br/>e serviços</p> 
+		</div><!--col-lg-3-->
+		<div class="col-lg-9 blockBorderP">
+			<p class="txtWhos">Uma empresa especializada em tecnologia, compra e<br/>gerenciamento de mídia digital. Atendendo o mercado, local, nacional e internacional.</p>
+		</div>
+	</div><!--row-->
+</section><!--/section-->
 
+<section id="trabalheconosco" class="container BlockSectionsB"> <!--section-->
+	<div class="row"><!--row-->
+		<div class="col-lg-3 bgJob"><!--col-lg-3-->
+			<p class="titulosQ"><span class="tituloBold">Trabalhe</span><br/>conosco</p> 
+		</div><!--col-lg-3-->
+		<div class="col-lg-9 blockBorderT alignTxtJog">
+			<a href="#"><img src="images/linkedin.png" class="center-block" alt=""></a>
+		</div>
+	</div><!--row-->
+</section><!--/section-->
 
+<section id="contato" class="container BlockSectionsB"> <!--section-->
+	<div class="row"><!--row-->
+		<div class="col-lg-3 bgContact"><!--col-lg-3-->
+			<p class="titulosQ"><span class="tituloBold">Trabalhe</span><br/>conosco</p> 
+		</div><!--col-lg-3-->
+		<div class="col-lg-9 blockBorderC alignTxtJog">
+			<a href="#"><img src="images/linkedin.png" class="center-block" alt=""></a>
+		</div>
+	</div><!--row-->
+</section><!--/section-->
+
+<footer class="container-fluid bgFooter BlockSectionsB">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<p class="txtFooter">copyright&copy; 2017 - todos os direitos reservados</p>
+			</div>
+		</div>
+	</div>
+</footer>
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 	<script src="js/jquery-1.11.3.min.js"></script>
