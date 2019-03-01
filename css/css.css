@@ -1,16 +1,42 @@
 @charset "UTF-8";
 /* CSS Document */
-@import url('https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700,900');
 
 body{
     font-family: 'Titillium Web', sans-serif;
 }
 
 .bgHeader{
-
+    background-image: url(../images/bg01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    
 }
 
+.menuIdioma{
+    height: 25px;
+    background-color: #cccccc;
+}
 
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.alignMenu{
+    padding-top: 6%;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #730086;
+    background-color: transparent;
+}
 
 
 
