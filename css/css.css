@@ -173,6 +173,10 @@ body{
     margin-top: 5%;
 }
 
+.mb-5{
+    margin-bottom: 5%;
+}
+
 .tituloProd{
     color: #4d1877;
     font-weight: 700;
@@ -213,6 +217,34 @@ body{
     border: 0px;
 }
 
+.tituloProdGHS{
+    color: #de9009;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.tituloProdD{
+    font-size: 1.3em;
+}
+
+.panel-body{
+    background-color: #f0f6ff;
+}
+
+.tituloProd01{
+    color: #961fad;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.text01{
+    font-size: 1.1em;
+    text-align: center;
+}
 
 /*/ Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) { ... }
