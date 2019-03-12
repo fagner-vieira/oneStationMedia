@@ -255,6 +255,11 @@ body{
     text-align: center;
 }
 
+.text01B{
+    font-size: 1.1em;
+    text-align: left;
+}
+
 .blocoForm{
     background-color: #c1cee0;
     padding: 10% 15%;
@@ -298,8 +303,31 @@ body{
     font-size: 1.3em;
 }
 
+@media (max-width: 575.98px) { 
+    .bgWhos, .bgProducts, .bgJob, .bgContact{
+        background-size: cover;
+        height: 157px;
+    }
+
+    .titulosQ, .titulosQB{
+        padding: 10% 0 0 0;
+    }
+
+    .blockBorder, .blockBorderP, .blockBorderT, .blockBorderC {
+        border-top: solid 0px #6d007f;
+    }
+
+    .textEnd, .textEndB{
+        text-align: center;
+    }
+ }
+
 /*/ Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) { ... }
+@media (max-width: 575.98px) { 
+    .bgWhos{
+
+    }
+ }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) { ... }

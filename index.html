@@ -46,10 +46,10 @@
 								<!-- Collect the nav links, forms, and other content for toggling -->
 								<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 									<ul class="nav navbar-nav navbar-left">
-										<li><a href="#quemsomos">Quem somos</a></li>
-										<li><a href="#produtoseservicos">Produtos e serviços</a></li>
-										<li><a href="#trabalheconosco">Trabalhe conosco</a></li>
-										<li><a href="#contato">Contato</a></li>
+										<li><a href="#quemsomos" class="menu">Quem somos</a></li>
+										<li><a href="#produtoseservicos" class="menu">Produtos e serviços</a></li>
+										<li><a href="#trabalheconosco" class="menu">Trabalhe conosco</a></li>
+										<li><a href="#contato" class="menu">Contato</a></li>
 									</ul>
 								</div><!-- /.navbar-collapse -->
 							</div><!-- /.container-fluid -->
@@ -128,14 +128,14 @@
 												</div>
 												<div class="row">
 												  <div class="col-lg-6">
-														<p class="text01"><img src="images/inconNN.png" alt="">&nbsp;Baixo custo de aquisição</p>
-														<p class="text01"><img src="images/inconNN.png" alt="">&nbsp;mais pessoas nas lojas</p>
-														<p class="text01"><img src="images/inconNN.png" alt="">&nbsp;exposição de marca</p>
+														<p class="text01B"><img src="images/inconNN.png" alt="">&nbsp;Baixo custo de aquisição</p>
+														<p class="text01B"><img src="images/inconNN.png" alt="">&nbsp;mais pessoas nas lojas</p>
+														<p class="text01B"><img src="images/inconNN.png" alt="">&nbsp;exposição de marca</p>
 													</div>
 													<div class="col-lg-6">
-														<p class="text01"><img src="images/inconNN.png" alt="">&nbsp;Resultados comprovados</p>
-														<p class="text01"><img src="images/inconNN.png" alt="">&nbsp;aumento das vendas</p>
-														<p class="text01"><img src="images/inconNN.png" alt="">&nbsp;sem dispersão</p>
+														<p class="text01B"><img src="images/inconNN.png" alt="">&nbsp;Resultados comprovados</p>
+														<p class="text01B"><img src="images/inconNN.png" alt="">&nbsp;aumento das vendas</p>
+														<p class="text01B"><img src="images/inconNN.png" alt="">&nbsp;sem dispersão</p>
 													</div>
 												</div>
 											</div>
@@ -381,6 +381,7 @@
 				<div class="col-lg-10">
 					<p class="tituloProdD">O Go Hot Sale é a ferramenta mais moderna em termos de Conversão de Cliques em Leads e Gestão de Leads no funil de vendas. Através campanhas assertivas e HotSites atrativos, você contará com uma ferramenta inovadora: o GoChat. Um chatbot inteligente que fará as perguntas certas para captação do seu lead.<br/><br/><br/>Além disso, essa plataforma permite a interação em tempo real com o seu novo cliente, aumentando ainda mais a sua taxa de conversão.</p>
 				</div>
+			</div>
 				<div class="row mb-5"><!--row accordion-->
 					<div class="col-lg-10 col-lg-offset-1 mt-5"><!--col-lg-12 accordion-->
 						<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
@@ -482,12 +483,23 @@
 	</div>
 </footer>
 
+<a href="#" id="topo" style="position: fixed; bottom: 20px; right: 10px;">Ir para o Topo</a>
+
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 	<script src="js/jquery-1.11.3.min.js"></script>
 
 	<!-- Include all compiled plugins (below), or include individual files as needed --> 
 	<script src="js/bootstrap.js"></script>
 
+	<script>
+		var $doc = $('html, body');
+	$('.menu').click(function() {
+			$doc.animate({
+					scrollTop: $( $.attr(this, 'href') ).offset().top
+			}, 1000);
+			return false;
+	});
+	</script>
 
   </body>
 </html>
