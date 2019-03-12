@@ -62,6 +62,15 @@ body{
     text-transform: uppercase;
 }
 
+.titulosQB{
+    color: #4d1877;
+    text-align: center;
+    padding: 33% 0 0 0;
+    font-size: 2.5em;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
 .tituloBold{
     font-size: 1.2em;
     font-weight: 700;
@@ -244,6 +253,49 @@ body{
 .text01{
     font-size: 1.1em;
     text-align: center;
+}
+
+.blocoForm{
+    background-color: #c1cee0;
+    padding: 10% 15%;
+    border-radius: 10px;
+}
+
+.form-control{
+    padding: 25px 20px;
+    font-size: 1.3em;
+    border-radius: 15px;
+}
+
+.btn{
+    font-size: 18px;
+    padding: 10px 50px;
+    color: #7a7a7a;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+.btnAlign{
+    text-align: center;
+}
+
+.linkEmel{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.linkEmel a:hover{
+    text-decoration: none;
+}
+
+.textEnd{
+    font-size: 1.8em;
+    color: #2f78b9;
+    font-weight: 700;
+}
+
+.textEndB{
+    font-size: 1.3em;
 }
 
 /*/ Extra small devices (portrait phones, less than 576px)
